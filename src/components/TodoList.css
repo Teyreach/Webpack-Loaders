@@ -1,11 +1,16 @@
 .TodoList {
-	list-style: none;
+	list-style-type: decimal;
 	padding: 0;
+	max-height: 300px;
+	overflow: auto;
+	text-transform: uppercase;
+	color: #d1d8e0;
 }
 
 .TodoList li {
-	margin: 10px;
-	width: 200px;
+	margin: 20px;
+	width: 300px;
+	
 }
 
 .TodoList button {

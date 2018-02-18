@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body{
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+}
 .TodoApp {
-    background-color: #F5F5F5;
+    background-color: #57606f;
     color: #222;
     display: flex;
     flex-direction: column;
@@ -9,4 +14,17 @@
     align-content: center;
     width: 100vw;
     height: 100vh;
+}
+
+h1 {
+	color: #f1f2f6;
+	font-size: 56px;
+	margin: 30px;
+	text-transform: uppercase;
+}
+
+p {
+	color: #eccc68;
+	font-size: 26px;
+	text-align: center;
 }
