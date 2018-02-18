@@ -4,9 +4,9 @@ import style from './TodoForm.css';
 const FormForTodo = props => {
     return ( 
         <form className={style.TodoForm} onSubmit={props.handleSubmit}>
-            <label htmlFor='text'>Name</label>
+            <label htmlFor='text'>Add tasks</label>
             <input id='text' onChange={props.handleInputChange} value={props.inputValue}/>
-            <input type='submit' value='Submit' className='btn btn-success'/>
+            <input type='submit' value='Submit'/>
         </form>
     )
 }
